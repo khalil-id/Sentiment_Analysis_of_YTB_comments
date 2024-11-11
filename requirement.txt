@@ -1,0 +1,7 @@
+pip install streamlit
+pip install pandas
+pip install nltk
+pip install google-api-python-client
+pip install scikit-learn
+pip install matplotlib
+pip install seaborn
