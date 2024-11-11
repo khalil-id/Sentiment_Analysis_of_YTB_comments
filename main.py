@@ -195,7 +195,9 @@ def fetch_comments(api_key, youtube_url):
 # Streamlit interface
 st.title("YouTube Comments Sentiment Analysis")
 
-api_key = "AIzaSyDm5X3ta6c0bTxJPl0C1LbhhY6z2wskY5Q"     #api key: "AIzaSyATH4gtD3kD2y2jFy-jvAKukviyB79vlkU" 
+#**************** delete '*' on the api_key ********************
+api_key = "*AIzaSyDm5X3ta6c0b*TxJPl0C1LbhhY6z2wskY5Q*" #another api key: "*AIzaSyATH4gtD3kD2y*2jFy-jvAKukviyB79vlkU*" 
+
 youtube_url = st.text_input("Enter YouTube URL:")
 
 if st.button("Fetch Comments & Analyze Sentiments"):
